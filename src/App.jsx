@@ -1,16 +1,24 @@
-import NavBar from './components/NavBar.jsx';
-import Header from './components/Home/Header.jsx';
-import Projects from './components/Home/Projects.jsx';
-import Footer from './components/Footer.jsx';
+import Home from './Home.jsx';
+import About from './About.jsx';
+import Fun from './Fun.jsx';
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Header />
-      <Projects />
-      <Footer />
+      <BrowserRouter>
+        <nav>
+          <NavLink to="/fun">Fun</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/">Home</NavLink>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/fun" element={<Fun />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
