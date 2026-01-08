@@ -1,4 +1,5 @@
-import Footer from './components/Footer.jsx';
+import Footer from '../components/Footer.jsx';
+import '../styles/Fun.css';
 
 export default function Fun() {
   return (

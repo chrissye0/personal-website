@@ -1,4 +1,5 @@
-import Footer from './components/Footer.jsx';
+import Footer from '../components/Footer.jsx';
+import '../styles/About.css';
 
 export default function About() {
   return (

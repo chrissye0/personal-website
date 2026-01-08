@@ -1,14 +1,15 @@
-import Home from './Home.jsx';
-import About from './About.jsx';
-import Fun from './Fun.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Fun from './pages/Fun.jsx';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <nav>
+          <NavLink reloadDocument target="_blank"to="/ChristineEspeletaResume.pdf">Resume</NavLink>
           <NavLink to="/fun">Fun</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/">Home</NavLink>
