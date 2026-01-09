@@ -4,12 +4,11 @@
 }
 
 nav {
-  background-color: #3B1231;
   overflow: hidden;
   width: 100%;
   padding: 0 60px;
   box-sizing: border-box;
-  height: 100px;
+  height: 80px;
 }
 
 nav a {
@@ -17,8 +16,8 @@ nav a {
   display: flex;
   float: right;
   position: relative;
-  padding: 20px 20px;
-  color: #EEBB2F;
+  padding: 10px 15px;
+  color: #3B1231;
   text-align: center;
   font-size: 17px;
 }
@@ -32,7 +31,7 @@ nav a::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #EEBB2F;
+  background-color: #3B1231;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -41,10 +40,8 @@ nav a:hover::after {
   transform-origin: bottom left;
 }
 
-
-
 footer {
-  background-color: #333;
+  background-color: #3B1231;
   color: #f2f2f2;
   padding: 30px 60px;
   width: 100%;
@@ -62,8 +59,16 @@ footer p {
 }
 
 .home, .about, .fun {
-    flex: 1;
-    padding: 30px 0px;
+  flex: 1;
+  padding: 30px 0px;
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
 
 .project {

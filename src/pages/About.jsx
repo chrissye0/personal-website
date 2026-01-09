@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="page">
       <section className="about">
-        <section className="intro">
+        <header className="intro">
           <figure className="profile">
             <img src={'../assets/profile-pic.jpg'} alt="Profile Picture" />
           </figure>
@@ -15,7 +15,7 @@ export default function About() {
             <p>I am passionate about UI/UX design, user research, digital art, web development, and interactive technologies.</p>
             <p>I dream of one day making the digital media that ignited my passions for art and tech in the first place, but until then, it's a work in progress!</p>
           </article>
-        </section>
+        </header>
       </section>
       <Footer />
     </section>
