@@ -63,6 +63,7 @@ footer p {
   padding: 30px 0px;
 }
 
+/* HOME */
 .welcome-header {
   display: flex;
   flex-direction: column;
@@ -79,6 +80,8 @@ footer p {
   text-align: left;
   transition: box-shadow 0.3s ease;
 }
+
+/* ABOUT */
 
 /* Intro section: image left, text right */
 .intro {
@@ -109,4 +112,20 @@ footer p {
 
 .description h2 {
   margin-top: 0;
+}
+
+/* skills */
+.skill {
+  pointer-events: none;
+  background-color: #EFF4FF;
+  border: none;
+  color: #2557D6;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: -1px;
+  margin-bottom: 10px;
+  border-radius: 100px;
 }
