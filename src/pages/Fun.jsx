@@ -1,12 +1,14 @@
 import Footer from '../components/Footer.jsx';
-import '../styles/Fun.css';
+import '../styles/App.css';
 
 export default function Fun() {
   return (
-    <>
-      <h1>Fun Page</h1>
-      <p>This is the Fun page content.</p>
+    <section className="page">
+      <section className="fun">
+        <h1>Fun Page</h1>
+        <p>This is the Fun page content.</p>
+      </section>
       <Footer />
-    </>
+    </section>
   )
 }
