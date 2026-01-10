@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-        <header className="intro">
+        <section className="intro">
             <figure className="profile">
                 <img src={'../assets/profile-pic.jpg'} alt="Profile Picture" />
             </figure>
@@ -10,6 +10,6 @@ export default function Intro() {
                 <p>I am passionate about UI/UX design, user research, digital art, web development, and interactive technologies.</p>
                 <p>I dream of one day making the digital media that ignited my passions for art and tech in the first place, but until then, it's a work in progress!</p>
             </article>
-        </header>
+        </section>
     )
 }

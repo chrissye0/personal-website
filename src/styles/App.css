@@ -110,16 +110,26 @@ footer p {
   text-align: left;
 }
 
-.description h2 {
-  margin-top: 0;
+/* skills */
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
 }
 
-/* skills */
-.skill {
+.ui-ux, .programming, .design {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  max-width: 700px;
+}
+
+/* skill bubbles */ 
+.ui-ux-skill, .programming-skill, .design-skill {
   pointer-events: none;
-  background-color: #EFF4FF;
   border: none;
-  color: #2557D6;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -128,4 +138,19 @@ footer p {
   margin-left: -1px;
   margin-bottom: 10px;
   border-radius: 100px;
+}
+
+.ui-ux-skill {
+  color: #d63725;
+  background-color: #fff4ef;
+}
+
+.programming-skill {
+  color: #149f4e;
+  background-color: #e8f9f0;
+}
+
+.design-skill {
+    color: #2557D6;
+      background-color: #eff4ff;
 }
