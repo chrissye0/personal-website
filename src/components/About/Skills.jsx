@@ -1,7 +1,7 @@
 export default function Skills() {
     return (
         <>
-            <header clasName="skill-header"><h2>Skills</h2></header>
+            <header className="skill-header"><h2>Skills</h2></header>
             <section className="skills">
                 <section className="ui-ux">
                     <h3>UI/UX</h3>
