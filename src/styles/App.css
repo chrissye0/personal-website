@@ -156,21 +156,27 @@ footer p {
 }
 
 .ui-ux, .programming, .design {
-  display: flex;
+  display: grid;
+  grid-template-columns: 20% 1fr;
   gap: 60px;
+  width: 100%;
+}
+
+.ui-ux-skills, .programming-skills, .design-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* 👈 key */
   align-items: flex-start;
+  gap: 12px;
   width: 100%;
 }
 
 .job {
-  display: flex;
-  gap: 60px;
+  display: grid;
   align-items: top;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 30px;
   width: 100%;
-}
-
-.job-details {
-  width: 50%;
 }
 
 /* skill bubbles */ 
