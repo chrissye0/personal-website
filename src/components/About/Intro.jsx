@@ -1,8 +1,10 @@
+import profilePic from '../../assets/profile-pic.jpg';
+
 export default function Intro() {
     return (
         <section className="intro">
             <figure className="profile">
-                <img src={'../assets/profile-pic.jpg'} alt="Profile Picture" />
+                <img src={profilePic} alt="Profile Picture" />
             </figure>
             <article className="description">
                 <h1>My name is Chrissy!</h1>
