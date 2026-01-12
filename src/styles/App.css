@@ -104,7 +104,6 @@ footer p {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 /* Invisible link that covers the whole card */
@@ -179,18 +178,28 @@ footer p {
   width: 100%;
 }
 
-/* skill bubbles */ 
-.ui-ux-skill, .programming-skill, .design-skill {
+/* skill + project bubbles */ 
+.ui-ux-skill, .programming-skill, .design-skill, .project-skill {
   pointer-events: none;
   border: none;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin-right: 13px;
-  margin-left: -1px;
-  margin-bottom: 10px;
   border-radius: 100px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.project-skill {
+  color: black;
+  max-width: fit-content;
+  background-color: #ffebb3;
 }
 
 .ui-ux-skill {
@@ -203,7 +212,7 @@ footer p {
   background-color: #e8f9f0;
 }
 
-.design-skill {
+.design-skill{
     color: #2557D6;
       background-color: #eff4ff;
 }
