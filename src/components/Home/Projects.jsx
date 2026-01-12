@@ -9,7 +9,7 @@ const projects = [
     title: "Floss Boss",
     description: "An alternative interface interactive experience.",
     image: flossBossImage,
-    link: "/floss-boss",
+    link: "https://flossboss.framer.website/",
     tags: ["Web Development", "Arduino", "Rive", "Game Development", "Product Management"]
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     tags: ["Figma", "User Research", "Competitive Analysis", "UserTesting"]
   },
   {
-    title: "Yearbook",
+    title: "CSH Yearbook",
     description: "A year-long project where I led a small team to create a yearbook for RIT's Computer Science House.",
     image: yearbookImage,
     link: "/yearbook",

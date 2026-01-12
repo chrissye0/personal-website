@@ -44,7 +44,6 @@ footer {
   background-color: #3B1231;
   color: #f2f2f2;
   padding: 30px 60px;
-  width: 100%;
 }
 
 footer img {
@@ -52,6 +51,12 @@ footer img {
   height: 30px;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-link {
@@ -108,7 +113,7 @@ footer img {
 
 .project-image {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
   object-position: top;
 }
@@ -228,4 +233,12 @@ footer img {
 .design-skill{
     color: #2557D6;
       background-color: #eff4ff;
+}
+
+.project-page {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 60px;
+  text-align: left;
+  gap: 20px;
 }
