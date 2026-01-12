@@ -47,9 +47,22 @@ footer {
   width: 100%;
 }
 
-footer p {
-  margin: 0;
-  float: left;
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.footer-link {
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px;
+  background: white;
+  margin: 10px 20px;
 }
 
 .page {
@@ -74,9 +87,9 @@ footer p {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 24px;
-  padding: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+  padding: 30px 60px;
 }
 
 .project {
@@ -101,7 +114,7 @@ footer p {
 }
 
 .project-info {
-  padding: 16px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -164,7 +177,7 @@ footer p {
 .ui-ux-skills, .programming-skills, .design-skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* 👈 key */
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 12px;
   width: 100%;
