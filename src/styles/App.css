@@ -78,7 +78,7 @@ footer img {
 
 .home, .about, .fun {
   flex: 1;
-  padding: 30px 0px;
+  padding: 0px 0px 30px;
 }
 
 /* HOME */
@@ -140,6 +140,7 @@ footer img {
   gap: 40px;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 30px 0px;
 }
 
 /* Profile image */
