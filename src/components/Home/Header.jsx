@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import Experience from './Experience.jsx';
+import Three from './Three.jsx';
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
         position: [0, 0, 6]
       }}
     >
-      <Experience />
+      <Three />
     </Canvas>
   )
 }
