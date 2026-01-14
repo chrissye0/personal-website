@@ -1,5 +1,6 @@
 import { Canvas } from '@react-three/fiber'
 import Three from './Three.jsx';
+import Typewriter from './Typewriter.jsx';
 
 export default function Header() {
   return (
@@ -14,6 +15,7 @@ export default function Header() {
       >
         <Three />
       </Canvas>
+      <Typewriter />
     </section>
   )
 }

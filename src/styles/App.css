@@ -66,8 +66,41 @@ nav a:hover::after {
   width: 100%;
   scroll-snap-align: start;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: -10px;
+  position: relative;
+}
+
+.typewriter {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  padding-top: 100px;
+}
+
+.typewriter-text {
+  display: inline-block;
+  height: 100px;
+  font-size: 5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  padding-right: 5px;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
 /* SNAP POINT #2 */

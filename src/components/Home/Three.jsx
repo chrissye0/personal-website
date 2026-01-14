@@ -23,7 +23,7 @@ export default function Experience() {
                 fontSize={0.5}
                 color="black"
             >
-                Hi, my name is Chrissy!
+                Hi, my name is Chrissy
             </Text>
         </>
     )

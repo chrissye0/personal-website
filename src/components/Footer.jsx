@@ -19,7 +19,7 @@ export default function Footer() {
         </section>
         <br />
         <section className="footer-credit">
-          <a href="https://github.com/chrissye0/personal-website">made with sweet treats & love</a>
+          <a href="https://github.com/chrissye0/personal-website" target="_blank" rel="noopener noreferrer">made with sweet treats & love</a>
           <p>© Christine Espeleta 2026</p>
         </section>
       </section>
