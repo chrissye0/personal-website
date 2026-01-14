@@ -51,6 +51,8 @@ h2 {
   font-family: "Poppins Bold", sans-serif;
   font-size: 2em;
   line-height: 1.2;
+  text-decoration-line: underline;
+  text-decoration-color: #EEBB2F;
 }
 
 h3 {

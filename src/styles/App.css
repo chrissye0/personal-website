@@ -9,6 +9,7 @@ nav {
   padding: 0 60px;
   box-sizing: border-box;
   height: 80px;
+
 }
 
 nav a {
@@ -16,8 +17,8 @@ nav a {
   display: flex;
   float: right;
   position: relative;
-  padding: 10px 15px;
-  color: #3B1231;
+  padding: 10px 20px;
+  color: black;
   text-align: center;
   font-size: 17px;
 }
@@ -31,43 +32,13 @@ nav a::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #3B1231;
+  background-color: #EEBB2F;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 nav a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-footer {
-  background-color: #3B1231;
-  color: #f2f2f2;
-  padding: 30px 60px;
-}
-
-footer img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.footer-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.footer-link {
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 100px;
-  background: white;
-  margin: 10px 20px;
 }
 
 .page {
@@ -173,6 +144,34 @@ footer img {
 /* Text content */
 .description {
   text-align: left;
+}
+
+footer {
+  background-color: #EEBB2F;
+  color: black;
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.footer-right {
+  margin-left: auto;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: white;
 }
 
 /* skills + experience */
