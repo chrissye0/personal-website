@@ -2,8 +2,8 @@ export default function Job({ company, title, duration, details }) {
     return (
         <section className="job">
             <section className="job-details">
-                <h2>{company}</h2>
-                <b>{title}</b>
+                <h3>{company}</h3>
+                <h4>{title}</h4>
                 <p>{duration}</p>
             </section>
             <ul>

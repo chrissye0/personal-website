@@ -59,6 +59,12 @@ h3 {
   line-height: 1.3;
 }
 
+h4 {
+  font-family: "Poppins SemiBold", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3;
+}
+
 p, li, button, a, b {
   font-family: "Calibri", sans-serif;
 }
