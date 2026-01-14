@@ -5,12 +5,12 @@ import '../styles/App.css';
 
 export default function Home() {
   return (
-    <section className="page">
-      <section className="home">
-        <Header />
+    <section className="home">
+      <Header />
+      <section className="lower-content">
         <Projects />
+        <Footer />
       </section>
-      <Footer />
     </section>
   )
 }

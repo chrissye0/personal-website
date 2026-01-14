@@ -76,18 +76,32 @@ footer img {
   flex-direction: column;
 }
 
-.home, .about, .fun {
+.about, .fun {
   flex: 1;
   padding: 0px 0px 30px;
 }
 
-/* HOME */
-.welcome-header {
+.home {
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  /** Adjust height to account for nav bar **/
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+/* SNAP POINT #1 */
+.header {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
+}
+
+/* SNAP POINT #2 */
+.lower-content {
+  scroll-snap-align: start;
 }
 
 .projects {
