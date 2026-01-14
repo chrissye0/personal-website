@@ -16,6 +16,10 @@ export default function Header() {
         <Three />
       </Canvas>
       <Typewriter />
+      <section className="view-projects">
+        <h3>View Projects</h3>
+        <p>↓</p>
+      </section>
     </section>
   )
 }

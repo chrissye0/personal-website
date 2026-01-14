@@ -8,11 +8,7 @@ export default function Experience() {
     return (
         <>
             <ambientLight intensity={3} />
-            <Float speed={3} rotationIntensity={3} floatIntensity={3}>
-                <mesh ref={cube} position={[-2.8, 0, 1]} scale={[0.75, 0.75, 0.75]}>
-                    <boxGeometry />
-                    <meshStandardMaterial color="orange" />
-                </mesh>
+            <Float speed={2} rotationIntensity={2} floatIntensity={2}>
                 <mesh ref={cube} position={[2.5, 1.4, 0]} scale={[0.75, 0.75, 0.75]}>
                     <boxGeometry />
                     <meshStandardMaterial color="orange" />
@@ -30,7 +26,7 @@ export default function Experience() {
                 scale={70}
                 fixed={true}
             >
-                <mesh ref={torus} position={[-1, 1.4, 1]} scale={[0.35, 0.35, 0.35]} rotation={[0.75, 0.6, 0]} >
+                <mesh ref={torus} position={[-2, 1.4, 1]} scale={[0.35, 0.35, 0.35]} rotation={[0.75, 0.6, 0]} >
                     <torusGeometry />
                     <meshStandardMaterial color="orange" />
                     <Html

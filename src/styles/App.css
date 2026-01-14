@@ -92,6 +92,11 @@ nav a:hover::after {
   animation: blink-caret 0.75s step-end infinite;
 }
 
+.view-projects {
+  position: absolute;
+  bottom: 100px;
+}
+
 .torus-label > div {
     background: #000000;
     font-size: 12px;
