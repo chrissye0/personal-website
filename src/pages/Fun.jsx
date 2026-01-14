@@ -6,7 +6,7 @@ export default function Fun() {
     <section className="page">
       <section className="fun">
         <h1>Fun Page</h1>
-        <p>This is the Fun page content.</p>
+        <p>updating soon!</p>
       </section>
       <Footer />
     </section>
