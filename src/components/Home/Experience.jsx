@@ -14,8 +14,9 @@ export default function Experience() {
             </mesh>
             </Float>
             <Text
+                font="../../fonts/InstrumentSerif/InstrumentSerif-Italic.ttf"
                 position={[0, 0, 1.25]}
-                fontSize={1}
+                fontSize={2}
                 color="black"
             >
                 Hi, my name is Chrissy!
