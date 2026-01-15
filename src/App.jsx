@@ -7,12 +7,14 @@ import Yearbook from './pages/Projects/Yearbook.jsx';
 import Portfolio from './pages/Projects/Portfolio.jsx';
 import AlumniPages from './pages/Projects/AlumniPages.jsx';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import icon from '/icon.svg';
 import './styles/App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <nav>
+        <img src={icon} alt="icon" width="50px" height="50px"/>
         <NavLink reloadDocument target="_blank"to="/ChristineEspeletaResume.pdf">Resume</NavLink>
         <NavLink to="/fun">Fun</NavLink>
         <NavLink to="/about">About</NavLink>
