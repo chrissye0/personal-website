@@ -28,7 +28,6 @@ nav a {
   font-size: 17px;
 }
 
-
 nav a::after {
   content: '';
   position: absolute;
@@ -164,6 +163,7 @@ nav a:hover::after {
   padding: 30px;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 /* Invisible link that covers the whole card */
@@ -283,6 +283,7 @@ footer a:hover {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 12px;
+  justify-content: center;
 }
 
 .project-skill {
@@ -308,8 +309,41 @@ footer a:hover {
 
 .project-page {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 30px 60px;
   text-align: left;
   gap: 20px;
+}
+
+.project-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.project-page-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.sidebar {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: fixed;
+  overflow-x: hidden;
+  padding-top: 3%;
+}
+
+.sidebar a {
+  font-family: "Poppins SemiBold", sans-serif;
+  font-size: 1em;
+  text-decoration-line: underline;
+  text-decoration-color: #EEBB2F;
+  color: black;
+  margin: 30px 0px;
 }
