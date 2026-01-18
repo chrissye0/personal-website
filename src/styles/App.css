@@ -322,6 +322,17 @@ footer a:hover {
   margin-left: 150px;
 }
 
+.project-mini-headers, .msg-results-sections {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.msg-results-stats {
+  display: flex;
+  flex-direction: row;
+}
+
 .project-page-tags {
   display: flex;
   flex-wrap: wrap;
