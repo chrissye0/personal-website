@@ -334,7 +334,7 @@ footer a:hover {
   flex-direction: row;
 }
 
-.msg-prototypes {
+.msg-prototypes, .old-rit-yearbooks, .old-csh-yearbooks, .yearbook-process-images, .yearbook-results-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -348,7 +348,7 @@ footer a:hover {
   max-width: 100%;
 }
 
-.msg-prototypes img, .msg-prototypes-AB img {
+.msg-prototypes img, .msg-prototypes-AB img, .old-rit-yearbooks img, .old-csh-yearbooks img, .yearbook-process-images img, .yearbook-results-images img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -359,6 +359,24 @@ footer a:hover {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 12px;
+}
+
+.project-page-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-page-image img {
+  width: 70%;
+  height: auto;
 }
 
 .sidebar {
