@@ -21,18 +21,18 @@ const projects = [
   },
   {
     title: "CSH Yearbook",
-    description: "A year-long project where I led a small team to create a yearbook for RIT's Computer Science House.",
+    description: "A multi-year creative team project I led for RIT's Computer Science House.",
     image: yearbookImage,
     link: "/yearbook",
-    tags: ["Product Management", "Adobe Illustrator", "Adobe Photoshop", "Canva"]
+    tags: ["Product Management", "Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello"]
   },
-  {
-    title: "Knicks & Rangers Alumni Pages",
-    description: "Webpage designs for retired New York Knicks and New York Rangers players.",
-    image: alumniPagesImage,
-    link: "/alumni-pages",
-    tags: ["Figma", "Ceros"]
-  },
+  // {
+  //   title: "Knicks & Rangers Alumni Pages",
+  //   description: "Webpage designs for retired New York Knicks and New York Rangers players.",
+  //   image: alumniPagesImage,
+  //   link: "/alumni-pages",
+  //   tags: ["Figma", "Ceros"]
+  // },
   // {
   //   title: "Portfolio Website",
   //   description: "How I made this website!",
