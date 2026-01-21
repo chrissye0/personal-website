@@ -334,21 +334,21 @@ footer a:hover {
   flex-direction: row;
 }
 
-.msg-prototypes, .old-rit-yearbooks, .old-csh-yearbooks, .yearbook-process-images, .yearbook-results-images {
+.msg-prototypes, .old-rit-yearbooks, .old-csh-yearbooks, .yearbook-process-images, .yearbook-results-images, .flossboss-process-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   max-width: 100%;
 }
 
-.msg-prototypes-AB {
+.msg-prototypes-AB, .flossboss-video {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 60px;
   max-width: 100%;
 }
 
-.msg-prototypes img, .msg-prototypes-AB img, .old-rit-yearbooks img, .old-csh-yearbooks img, .yearbook-process-images img, .yearbook-results-images img {
+.msg-prototypes img, .msg-prototypes-AB img, .old-rit-yearbooks img, .old-csh-yearbooks img, .yearbook-process-images img, .yearbook-results-images img, .flossboss-process-images img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
