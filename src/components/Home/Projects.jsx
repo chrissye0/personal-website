@@ -7,24 +7,24 @@ import alumniPagesImage from '../../assets/alumni-pages.png';
 const projects = [
   {
     title: "Floss Boss",
-    description: "An alternative interface interactive experience.",
+    description: "An alternative interface interactive experience to be presented to 30,000+ attendees at the GDC Festival of Gaming as a competition finalist.",
     image: flossBossImage,
-    link: "https://flossboss.framer.website/",
-    tags: ["Web Development", "Arduino", "Rive", "Game Development", "Product Management"]
+    link: "/floss-boss",
+    tags: ["JavaScript", "Node.js", "HTML", "CSS", "C++", "Arduino", "Rive", "Web Development", "Game Development"]
   },
   {
     title: "MSG.com Redesign",
-    description: "A redesign of Madison Square Garden's homepage I did during my internship.",
+    description: "A redesign of Madison Square Garden's venue homepage I did during my internship.",
     image: msgRedesignImage,
     link: "/msg-redesign",
-    tags: ["Figma", "User Research", "Competitive Analysis", "UserTesting"]
+    tags: ["Figma", "UserTesting", "User Research", "Competitive Analysis"]
   },
   {
     title: "CSH Yearbook",
-    description: "A multi-year creative team project I led for RIT's Computer Science House.",
+    description: "A multi-year creative passion project I led for RIT's Computer Science House.",
     image: yearbookImage,
     link: "/yearbook",
-    tags: ["Product Management", "Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello"]
+    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Management"]
   },
   // {
   //   title: "Knicks & Rangers Alumni Pages",

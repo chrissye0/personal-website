@@ -32,7 +32,7 @@ export default function Yearbook() {
         <section className="project-content">
           <header className="project-header">
             <h1>CSH Yearbook</h1>
-            <p>A multi-year creative team project I led for RIT's Computer Science House.</p>
+            <p>A multi-year creative passion project I led for RIT's Computer Science House.</p>
             <header className="project-mini-headers">
               <section className="role">
                 <h4>Role</h4>
