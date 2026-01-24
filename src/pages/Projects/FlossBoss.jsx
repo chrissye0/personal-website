@@ -6,6 +6,10 @@ import flossBossProcess4 from "../../assets/floss-boss-process-4.jpg";
 import flossBossSetup from "../../assets/floss-boss-setup.MOV";
 import flossBossPlaytestVideo from "../../assets/floss-boss-playtest-video.MOV";
 import flossBossGroup from "../../assets/floss-boss-group.JPG";
+import flossBossBrush from "../../assets/floss-boss-brush.png";
+import flossBossBrushing from "../../assets/floss-boss-brushing.png";
+import flossBossSet from "../../assets/floss-boss-set.png";
+import flossBossTerminal from "../../assets/floss-boss-terminal.png";
 
 import Footer from "../../components/Footer.jsx";
 import Sidebar from "../../components/Sidebar.jsx";
@@ -100,6 +104,10 @@ export default function FlossBoss() {
                 <source src={flossBossPlaytestVideo} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
+              <img src={flossBossBrush} alt="floss boss process image" />
+              <img src={flossBossBrushing} alt="floss boss process image" />
+              <img src={flossBossTerminal} alt="floss boss process image" />
+              <img src={flossBossSet} alt="floss boss process image" />
             </section>
           </article>
           <article className="flossboss-results" id="Results">

@@ -20,6 +20,18 @@ import yearbookResults1 from "../../assets/yearbook-results-1.jpg";
 import yearbookResults2 from "../../assets/yearbook-results-2.jpg";
 import yearbookResults3 from "../../assets/yearbook-results-3.jpg";
 import yearbookResults4 from "../../assets/yearbook-results-4.jpg";
+import yearbook2023_1 from "../../assets/2023-1.png";
+import yearbook2023_2 from "../../assets/2023-3.png";
+import yearbook2023_3 from "../../assets/2023-24.png";
+import yearbook2023_4 from "../../assets/2023-33.png";
+import yearbook2024_1 from "../../assets/2024-1.png";
+import yearbook2024_2 from "../../assets/2024-29.png";
+import yearbook2024_3 from "../../assets/2024-34.png";
+import yearbook2024_4 from "../../assets/2024-39.png";
+import yearbook2025_1 from "../../assets/2025-1.png";
+import yearbook2025_2 from "../../assets/2025-28.png";
+import yearbook2025_3 from "../../assets/2025-42.png";
+import yearbook2025_4 from "../../assets/2025-51.png";
 
 import Footer from "../../components/Footer.jsx";
 import Sidebar from "../../components/Sidebar.jsx";
@@ -117,6 +129,18 @@ export default function Yearbook() {
               <img src={yearbookResults2} alt="yearbook results image" />
               <img src={yearbookResults3} alt="yearbook results image" />
               <img src={yearbookResults4} alt="yearbook results image" />
+              <img src={yearbook2023_1} alt="yearbook 2023 image" />
+              <img src={yearbook2023_2} alt="yearbook 2023 image" />
+              <img src={yearbook2023_3} alt="yearbook 2023 image" />
+              <img src={yearbook2023_4} alt="yearbook 2023 image" />
+              <img src={yearbook2024_1} alt="yearbook 2024 image" />
+              <img src={yearbook2024_2} alt="yearbook 2024 image" />
+              <img src={yearbook2024_3} alt="yearbook 2024 image" />
+              <img src={yearbook2024_4} alt="yearbook 2024 image" />
+              <img src={yearbook2025_1} alt="yearbook 2025 image" />
+              <img src={yearbook2025_2} alt="yearbook 2025 image" />
+              <img src={yearbook2025_3} alt="yearbook 2025 image" />
+              <img src={yearbook2025_4} alt="yearbook 2025 image" />
             </section>
           </article>
         </section>
