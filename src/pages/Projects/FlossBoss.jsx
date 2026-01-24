@@ -63,7 +63,7 @@ export default function FlossBoss() {
             <p>Designers built assets and prototypes primarily in Figma, with animation assets being made in Rive. For the code, we developers utilized JavaScript, HTML, and CSS in a Node.js runtime environment for the front-end and C++ with Arduino for the physical hardware. In addition, we collectively worked on crafting a physical set with papier-mache teeth, foam gums, and the giant toothbrush and flosspick.</p>
             <p>In November, we officially submitted our project to <a href="https://gdconf.com/alt-ctrl-gdc">alt.ctrl.GDC</a>, an alternative interface project showcase under the GDC Festival of Gaming conference. A month later, we were accepted as a finalist and are slated to present Floss Boss at GDC in March 2026!</p>
             <br />
-            <section className="project-page-image">
+            <section className="flossboss-gdc">
               <iframe width="854px" height="480px"
                 src="https://www.youtube.com/embed/3P0t6EmyHPo?si=sbaCcwMReRfNEs8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
               </iframe>

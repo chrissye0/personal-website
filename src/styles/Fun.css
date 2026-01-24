@@ -10,13 +10,16 @@
 .art ul {
   display: flex;
   flex-wrap: wrap;
-  padding-inline-start: 0px;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
 }
 
 .art li {
-  height: 40vh;
-  flex-grow: 1;
-  list-style-type: none;
+  list-style: none;
+  flex: 1 1 400px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .art li:last-child {
@@ -24,8 +27,23 @@
 }
 
 .art img {
-  max-height: 100%;
-  min-width: 100%;
+  width: 100%;
+  height: auto;
   object-fit: cover;
-  vertical-align: bottom;
+  display: block;
+}
+
+/* 768px and below*/
+@media (max-width: 768px) {
+  .art {
+    padding: 0 20px;
+  }
+
+  .art ul {
+    flex-direction: column;
+  }
+
+  .art li {
+    flex: none;
+  }
 }

@@ -66,7 +66,7 @@ export default function MsgRedesign() {
           <article className="msg-process" id="Process">
             <h2>Process</h2>
             <br />
-            <img src={msgProcessImage} alt="process image" width={"50%"} height={"auto"} />
+            <img src={msgProcessImage} alt="process image" width={"80%"} height={"auto"} />
           </article>
           <article className="competitive-analysis" id="Competitive Analysis">
             <h2>Competitive Analysis</h2>
