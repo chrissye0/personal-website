@@ -1,0 +1,172 @@
+/* ABOUT */
+.about {
+  flex: 1;
+  padding: 0px 0px 30px;
+}
+
+/* Intro section: image left, text right */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+/* Profile image */
+.profile {
+  flex-shrink: 0;
+}
+
+.profile img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* Text content */
+.description {
+  text-align: left;
+  padding-right: 30px;
+}
+
+/* skills + experience */
+.skills,
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+}
+
+.ui-ux,
+.programming,
+.design {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  gap: 60px;
+  width: 100%;
+}
+
+.ui-ux-skills,
+.programming-skills,
+.design-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.job {
+  display: grid;
+  align-items: top;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 30px;
+  width: 100%;
+}
+
+/* skill + project bubbles */
+.ui-ux-skill,
+.programming-skill,
+.design-skill,
+.project-skill {
+  pointer-events: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.project-skill {
+  color: black;
+  max-width: fit-content;
+  background-color: #ffebb3;
+}
+
+.ui-ux-skill {
+  color: #d63725;
+  background-color: #fff4ef;
+}
+
+.programming-skill {
+  color: #149f4e;
+  background-color: #e8f9f0;
+}
+
+.design-skill {
+  color: #2557D6;
+  background-color: #eff4ff;
+}
+
+/* 600px-768px */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+  .intro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+
+  .profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+/* 600px and below*/
+@media only screen and (max-width: 600px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .description {
+    padding: 0px 60px;
+  }
+
+  .ui-ux, .programming, .design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ui-ux, .programming, .design {
+    text-align: center;
+  }
+
+  .ui-ux-skills, .programming-skills, .design-skills {
+    display: flex;
+    justify-content: center;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: column;
+  }
+}

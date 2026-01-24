@@ -11,6 +11,9 @@ import msgPrototypeV5B from "../../assets/1440-v5B.png";
 import msgPrototypeV6A from "../../assets/1440-v6A.png";
 import msgPrototypeV6B from "../../assets/1440-v6B.png";
 
+import "../../styles/App.css";
+import "../../styles/Project.css";
+
 export default function MsgRedesign() {
   return (
     <>

@@ -24,6 +24,9 @@ import yearbookResults4 from "../../assets/yearbook-results-4.jpg";
 import Footer from "../../components/Footer.jsx";
 import Sidebar from "../../components/Sidebar.jsx";
 
+import "../../styles/App.css";
+import "../../styles/Project.css";
+
 export default function Yearbook() {
   return (
     <>

@@ -1,5 +1,6 @@
 import Footer from '../components/Footer.jsx';
 import '../styles/App.css';
+import '../styles/Fun.css';
 import balloonRitchie from "../assets/art/balloonritchie.jpg";
 import cannonsAway from "../assets/art/cannons_away.jpg";
 import characterLineup from "../assets/art/character_lineup.jpg";

@@ -7,19 +7,41 @@ import Yearbook from './pages/Projects/Yearbook.jsx';
 // import Portfolio from './pages/Projects/Portfolio.jsx';
 // import AlumniPages from './pages/Projects/AlumniPages.jsx';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { useState } from "react";
 import icon from '/icon.svg';
 import './styles/App.css';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <BrowserRouter>
-      <nav>
-        <img src={icon} alt="icon" width="50px" height="50px"/>
-        <NavLink reloadDocument target="_blank"to="/ChristineEspeletaResume.pdf">Resume</NavLink>
-        <NavLink to="/fun">Fun</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/">Home</NavLink>
+      <nav className="nav">
+        <div className="nav-left">
+          <img src={icon} alt="icon" width="50" height="50" />
+        </div>
+
+        <button
+          className="hamburger"
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        <div className={`nav-links ${menuOpen ? "open" : ""}`}>
+          <NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink>
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
+          <NavLink to="/fun" onClick={() => setMenuOpen(false)}>Fun</NavLink>
+          <NavLink reloadDocument target="_blank" to="/ChristineEspeletaResume.pdf">
+            Resume
+          </NavLink>
+        </div>
       </nav>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -27,8 +49,6 @@ function App() {
         <Route path="/floss-boss" element={<FlossBoss />} />
         <Route path="/msg-redesign" element={<MsgRedesign />} />
         <Route path="/yearbook" element={<Yearbook />} />
-        {/* <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/alumni-pages" element={<AlumniPages />} /> */}
       </Routes>
     </BrowserRouter>
   )

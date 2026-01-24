@@ -10,6 +10,9 @@ import flossBossGroup from "../../assets/floss-boss-group.JPG";
 import Footer from "../../components/Footer.jsx";
 import Sidebar from "../../components/Sidebar.jsx";
 
+import "../../styles/App.css";
+import "../../styles/Project.css";
+
 export default function FlossBoss() {
   return (
     <>
