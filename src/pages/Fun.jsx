@@ -19,42 +19,21 @@ export default function Fun() {
       <section className="fun">
         <h1>Art</h1>
         <section className="art">
-          <ul>
-            <li key="sunset">
-              <img src={sunset} alt="sunset"/>
-            </li>
-            <li key="cannons away">
-              <img src={cannonsAway} alt="cannons away"/>
-            </li>
-            <li key="potions">
-              <img src={potions} alt="potions"/>
-            </li>
-            <li key="rat">
-              <img src={rat} alt="rat"/>
-            </li>
-            <li key="rat square">
-              <img src={ratSquare} alt="rat square"/>
-            </li>
-            <li key="RIT map">
-              <img src={ritMap} alt="RIT map"/>
-            </li>
-            <li key="character lineup">
-              <img src={characterLineup} alt="character lineup"/>
-            </li>
-            <li key="characters 1">
-              <img src={characters1} alt="characters 1"/>
-            </li>
-            <li key="characters 2">
-              <img src={characters2} alt="characters 2"/>
-            </li>
-            <li key="balloon ritchie">
-              <img src={balloonRitchie} alt="balloon ritchie"/>
-            </li>
-            <li key="me and my guy">
-              <img src={meAndMyGuy} alt="me and my guy"/>
-            </li>
-            <li></li>
-          </ul>
+          <section className="column1">
+            <img src={sunset} alt="sunset"/>
+            <img src={potions} alt="potions"/>
+            <img src={ratSquare} alt="rat square"/>
+            <img src={characterLineup} alt="character lineup"/>
+            <img src={characters2} alt="characters 2"/>
+            <img src={meAndMyGuy} alt="me and my guy"/>
+          </section>
+          <section className="column2">
+            <img src={cannonsAway} alt="cannons away"/>
+            <img src={rat} alt="rat"/>
+            <img src={ritMap} alt="RIT map"/>
+            <img src={characters1} alt="characters 1"/>
+            <img src={balloonRitchie} alt="balloon ritchie"/>
+          </section>
         </section>
       </section>
       <Footer />
