@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
       <nav className="nav">
         <div className="nav-left">
-          <img src={icon} alt="icon" width="50" height="50" />
+          <a href="/"><img src={icon} alt="icon" width="50" height="50" /></a>
         </div>
 
         <button
