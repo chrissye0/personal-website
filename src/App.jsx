@@ -7,12 +7,23 @@ import Yearbook from './pages/Projects/Yearbook.jsx';
 // import Portfolio from './pages/Projects/Portfolio.jsx';
 // import AlumniPages from './pages/Projects/AlumniPages.jsx';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import icon from '/icon.svg';
 import './styles/App.css';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
+  // const [projectsOpen, setProjectsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 600);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <BrowserRouter>
@@ -34,6 +45,26 @@ function App() {
 
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <NavLink to="/" onClick={() => setMenuOpen(false)}>Home</NavLink>
+
+          <section className={`dropdown`}>
+            {!isMobile && (
+              <>
+                <NavLink to="/" style={{pointerEvents: "none"}}>Projects</NavLink>
+                <section className="dropdown-menu">
+                  <NavLink to="/floss-boss" onClick={() => setMenuOpen(false)}>
+                    Floss Boss
+                  </NavLink>
+                  <NavLink to="/msg-redesign" onClick={() => setMenuOpen(false)}>
+                    MSG.com Redesign
+                  </NavLink>
+                  <NavLink to="/yearbook" onClick={() => setMenuOpen(false)}>
+                    CSH Yearbook
+                  </NavLink>
+                </section>
+              </>
+            )}
+          </section>
+
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>About</NavLink>
           <NavLink to="/fun" onClick={() => setMenuOpen(false)}>Fun</NavLink>
           <NavLink reloadDocument target="_blank" to="/ChristineEspeletaResume.pdf">

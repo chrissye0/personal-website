@@ -38,7 +38,7 @@
 }
 
 .nav-links a::after {
-content: '';
+  content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -55,8 +55,38 @@ nav a:hover::after {
   transform-origin: bottom left;
 }
 
-.nav-links a.active::after {
-  transform: scaleX(1);
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  background: white;
+  border-radius: 8px;
+  padding: 8px 0;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+
+  transition: all 0.2s ease;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu a {
+  padding: 8px 16px;
+  white-space: nowrap;
 }
 
 .hamburger {
@@ -112,6 +142,15 @@ footer a:hover {
 
 /* 768px and below*/
 @media only screen and (max-width: 768px) {
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    margin: 0px;
+    padding: 20px 10px;
+  }
+
   .footer-link {
     display: flex;
     flex-direction: row;
@@ -151,11 +190,11 @@ footer a:hover {
   }
 
   .nav-links.open {
-    max-height: 300px;
+    max-height: 1000px;
   }
 
   .nav-links a {
-    padding: 16px 0;
+    padding: 16px;
   }
 
   /* Disable hover animation on mobile */
@@ -163,10 +202,10 @@ footer a:hover {
     display: none;
   }
 
-/* =========================
+  /* =========================
    DISABLE HOVER WHEN MENU OPEN
 ========================= */
-.nav.menu-open .nav-links a::after {
-  display: none;
-}
+  .nav.menu-open .nav-links a::after {
+    display: none;
+  }
 }
