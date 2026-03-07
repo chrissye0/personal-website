@@ -125,11 +125,12 @@
 
 /* 600px and below*/
 @media only screen and (max-width: 600px) {
+
   .home {
     scroll-snap-type: none;
     height: auto;
   }
-  
+
   .projects {
     display: flex;
     flex-direction: column;
@@ -151,23 +152,26 @@
   }
 
   .name {
-  padding-bottom: 250px;
-  font-size: 3.5rem;
-  font-weight: bold;
-  position: absolute;
+    padding: 0px 20px 300px;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
   }
 
   .typewriter {
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding-top: 175px;
+    padding-top: 150px;
     gap: 0.5rem;
   }
 
   .typewriter-text {
+    display: inline-block;
     font-size: 3rem;
     height: 80px;
+    width: fit-content;
+    text-align: center;
   }
 
   h1 {
