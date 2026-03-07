@@ -79,7 +79,7 @@
 }
 
 .project-page-image img {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
@@ -162,6 +162,37 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    max-width: 100%;
+  }
+}
+
+/* 600px and below*/
+@media only screen and (max-width: 600px) {
+  .project-mini-headers,
+  .msg-results-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .msg-prototypes,
+  .old-rit-yearbooks,
+  .old-csh-yearbooks,
+  .yearbook-process-images,
+  .yearbook-results-images,
+  .flossboss-process-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100vw;
+  }
+
+  .msg-prototypes-AB,
+  .flossboss-video {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     max-width: 100%;
   }
 }

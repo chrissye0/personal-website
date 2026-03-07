@@ -84,7 +84,7 @@ export default function Yearbook() {
           </article>
           <article className="yearbook-process" id="Process">
             <h2>Process</h2>
-            <img src={yearbookProcessImage} alt="process image" width={"80%"} height={"auto"} />
+            <img src={yearbookProcessImage} alt="process image" width={"100%"} height={"auto"} />
           </article>
           <article className="yearbook-research" id="Research">
             <h2>Research</h2>

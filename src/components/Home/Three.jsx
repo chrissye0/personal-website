@@ -40,14 +40,6 @@ export default function Experience() {
                 </mesh>
 
             </PivotControls>
-            {/* <Text
-                font="../../fonts/InstrumentSerif/InstrumentSerif-Italic.ttf"
-                position={[0, 0.4, 2]}
-                fontSize={0.5}
-                color="black"
-            >
-                Hi, my name is Chrissy
-            </Text> */}
         </>
     )
 }
