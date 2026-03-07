@@ -162,7 +162,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 100px;
     gap: 0.5rem;
   }
 
@@ -176,5 +176,9 @@
 
   h1 {
     margin: 20px 0px;
+  }
+
+  .header {
+    height: 90vh;
   }
 }
