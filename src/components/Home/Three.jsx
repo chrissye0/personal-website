@@ -5,6 +5,7 @@ import { useRef } from 'react';
 export default function Experience() {
     const cube = useRef();
     const torus = useRef();
+
     return (
         <>
             <ambientLight intensity={3} />
@@ -39,14 +40,14 @@ export default function Experience() {
                 </mesh>
 
             </PivotControls>
-            <Text
+            {/* <Text
                 font="../../fonts/InstrumentSerif/InstrumentSerif-Italic.ttf"
                 position={[0, 0.4, 2]}
                 fontSize={0.5}
                 color="black"
             >
                 Hi, my name is Chrissy
-            </Text>
+            </Text> */}
         </>
     )
 }

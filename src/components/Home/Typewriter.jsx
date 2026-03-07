@@ -40,9 +40,12 @@ export default function Typewriter() {
     }, [charIndex, isDeleting, titleIndex]);
 
     return (
+        <>
+        <section className="name">Hi, my name is Chrissy</section>
         <section className="typewriter">
             <h1>and I'm a</h1>
             <h1 className="typewriter-text">{text}</h1>
         </section>
+        </>
     );
 }
