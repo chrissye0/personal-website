@@ -9,12 +9,12 @@ export default function Experience() {
                     company="Madison Square Garden"
                     title="Freelance UI/UX Designer"
                     duration="Sept 2025 - Current"
-                    details={[["Designing web pages in ", <b>Figma</b>, " and ", <b>Ceros</b>, " for MSG.com, New York Knicks, New York Rangers, and Garden of Dreams Foundation, with the Creative, Digital Experience, and Software Development teams."]]}/>
+                    details={[["Designing interactive and responsive web pages in ", <b>Figma</b>, " and ", <b>Ceros</b>, " for the New York Knicks, New York Rangers, and MSG.com in collaboration with the Digital Experience, Software Development, and Marketing teams."]]}/>
                 <Job
                     company="Accesible Learning Labs"
                     title="UI/UX Designer"
                     duration="Sept 2025 - Current"
-                    details={[["Leading the design process in ", <b>Figma</b> , " for the creation of NSF-funded labs fostering ",  <b>accessibility</b>, " education and STEM proficiency among underrepresented communities."]]}/>
+                    details={[["Spearheading the design process in ", <b>Figma</b> , " of NSF-funded labs fostering ",  <b>accessibility</b>, " and ",  <b>STEM education</b>, " with software developers and product managers."]]}/>
                 <Job
                     company="Madison Square Garden"
                     title="Digital Product Design Student Associate"
@@ -26,7 +26,7 @@ export default function Experience() {
                     company="Rochester Institute of Technology"
                     title="Teaching Assistant"
                     duration="Aug 2023 - Current"
-                    details={[["Assisting 30+ students with ", <b>JavaScript</b>, " in ", <b>p5.js</b>, " and providing constructive feedback on ", <b>creative coding</b>, " projects."]]}/>
+                    details={[["Assisting 30+ students with ", <b>JavaScript</b>, " in ", <b>p5.js</b>, " and providing ", <b>constructive feedback</b>, " on ", <b>creative coding</b>, " projects."]]}/>
                 <Job
                     company="Amazon"
                     title="Campaign & Creative Management Youth Apprentice"

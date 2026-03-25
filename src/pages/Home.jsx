@@ -8,12 +8,12 @@ import "../styles/About.css";
 
 export default function Home() {
   return (
-    <section className="home">
-      <Header />
-      <section className="lower-content">
+    <section className="page">
+      <section className="home">
+        <Header />
         <Projects />
-        <Footer />
       </section>
+      <Footer />
     </section>
   )
 }
