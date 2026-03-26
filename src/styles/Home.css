@@ -1,7 +1,7 @@
 .home {
   flex: 1;
   /** Adjust height to account for nav bar **/
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
   width: 100%;
 }
 
