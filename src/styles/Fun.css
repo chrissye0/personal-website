@@ -11,23 +11,54 @@
 }
 
 .art .column1,
-.art .column2 {
+.art .column2,
+.art .column3 {
   display: flex;
   width: 50vw;
   flex-direction: column;
   gap: 12px;
 }
 
-.art img {
+.art img, .posters img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
 }
 
+.animations {
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.animations video {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.posters {
+  padding: 0px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.posters-1, .posters-2 {
+  display: flex;
+  width: 50vw;
+  flex-direction: column;
+  gap: 12px;
+}
+
 /* 768px and below*/
 @media (max-width: 768px) {
-  .art {
+  .art, .posters {
     padding: 0 20px;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +66,20 @@
   }
 
   .art .column1,
-  .art .column2 {
+  .art .column2,
+  .posters-1,
+  .posters-2 {
     width: 80vw;
+  }
+
+  .animations {
+    padding: 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .animations video {
+    width: 90%;
   }
 }
