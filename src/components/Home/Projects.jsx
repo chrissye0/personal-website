@@ -7,7 +7,7 @@ import alumniPagesImage from '../../assets/alumni-pages.png';
 const projects = [
   {
     title: "Floss Boss",
-    description: "An alternative interface interactive experience to be presented to 30,000+ attendees at the GDC Festival of Gaming as a competition finalist.",
+    description: "An alternative interface interactive experience presented to 20,000+ attendees at the GDC Festival of Gaming as an alt.ctrl.GDC competition finalist.",
     image: flossBossImage,
     link: "/floss-boss",
     tags: ["JavaScript", "Node.js", "HTML", "CSS", "C++", "Arduino", "Rive", "Web Development", "Game Development"]

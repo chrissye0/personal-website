@@ -203,7 +203,15 @@
 
 /* 600px and below*/
 @media only screen and (max-width: 600px) {
-
+  .sidebar {
+    display: none;
+  }
+  .project-content {
+    padding: 30px;
+    margin: 60px 0px;
+    display: flex;
+    flex-direction: column;
+  }
   .project-mini-headers,
   .msg-results-sections {
     display: flex;
