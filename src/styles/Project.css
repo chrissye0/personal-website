@@ -7,6 +7,7 @@
 .project-content {
   padding: 0 60px;
   margin: 80px 0px 60px 200px;
+  gap: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -34,6 +35,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .project-mini-headers section {
@@ -46,8 +48,7 @@
 }
 
 .msg-prototypes,
-.old-rit-yearbooks,
-.old-csh-yearbooks,
+.old-yearbooks,
 .yearbook-process-images,
 .yearbook-results-images {
   display: grid;
@@ -69,8 +70,7 @@
 
 .msg-prototypes img,
 .msg-prototypes-AB img,
-.old-rit-yearbooks img,
-.old-csh-yearbooks img,
+.old-yearbooks img,
 .yearbook-process-images img,
 .yearbook-results-images img,
 .flossboss-video video,
@@ -100,7 +100,7 @@
 .project-header {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
 }
 
 .project-page-image img {
@@ -124,6 +124,20 @@
   height: 100%;
 }
 
+/* 1024px and below */
+@media only screen and (max-width: 1024px) {
+  .project-content {
+    padding: 0 30px;
+    margin: 80px 0px 60px 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 150px;
+  }
+}
+
 /* 768px and below*/
 @media only screen and (max-width: 768px) {
   .sidebar {
@@ -131,8 +145,8 @@
   }
 
   .project-content {
-    padding: 30px;
-    margin: 60px 0px;
+    padding: 0px 30px;
+    margin: 80px 0px 0px 0px;
     display: flex;
     flex-direction: column;
   }
@@ -148,7 +162,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
   }
 
   .msg-prototypes,
@@ -172,46 +185,20 @@
   }
 }
 
-/* 1024px and below */
-@media only screen and (max-width: 1024px) {
-  .project-content {
-    padding: 0 30px;
-    margin: 80px 0px 60px 150px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    position: fixed;
-    overflow-x: hidden;
-    margin-top: 80px;
-  }
-
-  .sidebar a {
-    font-family: "Poppins SemiBold", sans-serif;
-    font-size: 1em;
-    text-decoration-line: underline;
-    text-decoration-color: #EEBB2F;
-    color: black;
-    margin: 10px 0px;
-  }
-}
-
 /* 600px and below*/
 @media only screen and (max-width: 600px) {
   .sidebar {
     display: none;
   }
+
   .project-content {
-    padding: 60px 0px 0px 0px;
-    margin:0px;
+    padding: 0px;
+    margin: 80px 0px 0px 0px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
   }
+
   .project-mini-headers,
   .msg-results-sections {
     display: flex;

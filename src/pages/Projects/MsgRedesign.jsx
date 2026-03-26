@@ -20,32 +20,37 @@ export default function MsgRedesign() {
       <section className="project-page">
         <Sidebar nav={["Problem", "Goals", "Process", "Competitive Analysis", "Design Iterations", "A/B Testing", "Results"]} />
         <section className="project-content">
-          <h1>MSG.com Redesign</h1>
-          <p>A redesign project of Madison Square Garden's venue landing page done during my Digital Product Design summer internship at Madison Square Garden. The project involved team brainstorming sessions, iterative Figma prototyping, and quantitative and qualitative user research.</p>
-          <header className="project-mini-headers">
-            <section className="role">
-              <h4>Role</h4>
-              <h3>UI/UX Designer</h3>
-            </section>
-            <section className="timeline">
-              <h4>Timeline</h4>
-              <h3>May 2024 - August 2024</h3>
-            </section>
-            <section className="tools">
-              <h4>Tools</h4>
-              <section className="project-page-tags">
-                <button className="project-skill">Figma</button>
-                <button className="project-skill">User Research</button>
-                <button className="project-skill">Competitive Analysis</button>
-                <button className="project-skill">UserTesting</button>
+          <header class="project-header">
+            <h1>MSG.com Redesign</h1>
+            <p>A redesign project of Madison Square Garden's venue landing page.</p>
+            <header className="project-mini-headers">
+              <section className="links">
+                <h4>Links</h4>
+                <h3><a href="https://github.com/chrissye0/floss-boss" target="_blank" rel="noopener noreferrer">Case Study</a></h3>
+                <h3><a href="https://flossboss.framer.website/" target="_blank" rel="noopener noreferrer">Website</a></h3>
               </section>
+              <section className="role">
+                <h4>Role</h4>
+                <h3>UI/UX Designer</h3>
+              </section>
+              <section className="timeline">
+                <h4>Timeline</h4>
+                <h3>May 2024 - August 2024</h3>
+              </section>
+              <section className="tools">
+                <h4>Tools</h4>
+                <section className="project-page-tags">
+                  <button className="project-skill">Figma</button>
+                  <button className="project-skill">User Research</button>
+                  <button className="project-skill">Competitive Analysis</button>
+                  <button className="project-skill">UserTesting</button>
+                </section>
+              </section>
+            </header>
+            <section className="project-page-image">
+              <img src={msgComputerPrototype} alt="msg prototype image" />
             </section>
           </header>
-          <br />
-          <section className="project-page-image">
-            <img src={msgComputerPrototype} alt="msg prototype image" />
-          </section>
-          <br />
           <article className="msg-problem" id="Problem">
             <h2>Problem</h2>
             <h3>MSG.com users believe there's an imbalance of event and venue information and show little click interactivity on the homepage.</h3>
@@ -65,7 +70,6 @@ export default function MsgRedesign() {
           </article>
           <article className="msg-process" id="Process">
             <h2>Process</h2>
-            <br />
             <img src={msgProcessImage} alt="process image" width={"100%"} height={"auto"} />
           </article>
           <article className="competitive-analysis" id="Competitive Analysis">
@@ -85,14 +89,11 @@ export default function MsgRedesign() {
             <h2>A/B Testing</h2>
             <p>After some design feedback from my team, I settled on two mockup designs I was confident in. The differences between the two included the “Plan Your Visit” section and the event carousel at the top. In the first version, “Plan Your Visit” is at the bottom. The user can click through photos of the arena, and to the right, the user can read general venue information and navigate to their respective pages. The version on the right contains the icons and boxes from before and is instead higher up on the homepage. For the carousel, the bar at the bottom with the navigation arrows is different, with one being an extension of the arena background and the other having a dark blue background.</p>
             <p>At this point, I conducted an A/B test asking users to scroll through both prototypes individually, express their thoughts, note any differences between the two, and then see them both side-by-side. Results from the test showed people preferred “Plan Your Visit” being at the top, as they would have to scroll down past all the events in the other version. The icons also made the design more readable and accessible for users. There weren’t many strong opinions regarding the carousel, but some cited that the dark blue bar made the design less busy and more “modern.” I went forward with the 2nd mockup by replacing placeholders with imagery and event content and finally conducted another A/B test comparing this mockup and the current MSG.com website.</p>
-            <br />
             <section className="msg-prototypes-AB">
               <img src={msgPrototypeV5A} alt="prototype 5A" />
               <img src={msgPrototypeV5B} alt="prototype 5B" />
             </section>
-            <br />
             <p>The results from the 2nd A/B test showed that most tested users preferred my prototype to the official website. They liked the use of icons and imagery and how more events were displayed and organized. People could more easily find an event they liked directly from the homepage and icons pointed toward a more user-friendly and accessible design. Users also had a positive reception toward the social media integration at the bottom. Points of feedback included having more arena imagery and creating more visual unity with the event photo and description in the top carousel.</p>
-            <br />
             <section className="msg-prototypes-AB">
               <img src={msgPrototypeV6A} alt="prototype 6A" />
               <img src={msgPrototypeV6B} alt="prototype 6B" />
