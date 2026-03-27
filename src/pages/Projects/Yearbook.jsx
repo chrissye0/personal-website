@@ -43,7 +43,7 @@ export default function Yearbook() {
   return (
     <>
       <section className="project-page">
-        <Sidebar nav={["Background", "Process", "Research", "Ideation, Design, & Feedback", "Results"]} />
+        <Sidebar nav={["Overview", "Goals", "Research", "Ideation", "Design", "Feedback", "Results", "Takeaways"]} />
         <section className="project-content">
           <header className="project-header">
             <h1>CSH Yearbook</h1>

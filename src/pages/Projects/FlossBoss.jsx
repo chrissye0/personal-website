@@ -31,7 +31,7 @@ export default function FlossBoss() {
   return (
     <>
       <section className="project-page">
-        <Sidebar nav={["Overview", "Goals", "Brainstorming", "Development", "Playtesting & Feedback", "alt.ctrl.GDC", "Results"]} />
+        <Sidebar nav={["Overview", "Goals", "Brainstorming", "Development", "Playtesting & Feedback", "Results", "Takeaways"]} />
         <section className="project-content">
           <header className="project-header">
             <h1>Floss Boss</h1>
@@ -129,8 +129,8 @@ export default function FlossBoss() {
             </section>
             <p>We received ample feedback from playtesters as well as recommendations from professors to improve the user experience. We gradually tweaked our photoresistor light detection, and users also provided ideas on improving the game's flow. Playtesting revealed that tooth-related animations were easy to miss near the bottom of the screen. We updated the UI so Scuds momentarily pop upward before attacking, making them more noticeable. Brushing animations also became clearer, as each tooth now fills with bubbles until the tooth is fully cleaned. In later testing, we adjusted the game's length from 90 seconds to 60 seconds to account for larger audiences and shorter experiences. We also adjusted brushing and flossing decay rates to ensure a balanced experience between both players.</p>
           </article>
-          <article className="flossboss-altctrlgdc" id="alt.ctrl.GDC">
-            <h2>alt.ctrl.GDC</h2>
+          <article className="flossboss-altctrlgdc" id="Results">
+            <h2>Results</h2>
             <p>Finally, from March 9 to 13, we showcased Floss Boss at alt.ctrl.GDC! Feedback was overwhelmingly positive, and so many of our players reported having fun! We also had the privilege of presenting our project via gameplay and interviews with various content creators and news outlets!</p>
             <section className="flossboss-gdc-images">
               <img src={flossBossGDC1} alt="floss boss gdc image" />
@@ -141,8 +141,8 @@ export default function FlossBoss() {
               <img src={flossBossGDC6} alt="floss boss gdc image" />
             </section>
           </article>
-          <article className="flossboss-results" id="Results">
-            <h2>Results</h2>
+          <article className="flossboss-results" id="Takeaways">
+            <h2>Takeaways</h2>
             <p>It was my first time working on a project of this scale with such a large team, and I undoubtedly learned a lot about game development, hardware integration, user feedback, and multidisciplinary team collaboration! Seeing so many people actively enjoy our game at GDC made the endless hours spent debugging code, playtesting, and painstakingly handcrafting a physical set all the more worth it. Video games and their endless potential for creativity, storytelling, and human connection have always held a special place in my heart, so it was an absolute honor to share a silly project about cleaning teeth with the same people who made me who I am today.</p>
             <p>In late April, we will be presenting Floss Boss again as part of our university's showcase, ImagineRIT!</p>
             <section className="project-page-image">
