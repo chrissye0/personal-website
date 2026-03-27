@@ -43,7 +43,7 @@ export default function Yearbook() {
   return (
     <>
       <section className="project-page">
-        <Sidebar nav={["Overview", "Goals", "Research", "Ideation", "Design", "Feedback", "Results", "Takeaways"]} />
+        <Sidebar nav={["Overview", "Goals", "Research", "Ideation, Design, & Feedback", "Results", "Takeaways"]} />
         <section className="project-content">
           <header className="project-header">
             <h1>CSH Yearbook</h1>
@@ -74,15 +74,15 @@ export default function Yearbook() {
               <img src={yearbookImage} alt="yearbook image" />
             </section>
           </header>
-          <article className="yearbook-intro" id="Background">
-            <h2>Background</h2>
-            <p>This project began in the Fall Semester of my freshman year, and I have led it ever since. I was heavily involved in the student organization Computer Science House and I soon learned of a yearbook project that died down as a result of COVID. This club meant a lot to me throughout my college experience, and with my prior design experience, I thought this project was a perfect way to give back to the community that gave so much to me.
-              It began with a team of only two people, yet we were able to garner interest and create a small team. Though freshmen composed most of the team, we were determined to do the research and create a yearbook symbolic of the whole CSH community. The yearbooks feature photos of all CSH members, funny quotes, technical projects, CSH-branded designs, and photos from events throughout the year.
-            </p>
-          </article>
-          <article className="yearbook-process" id="Process">
-            <h2>Process</h2>
+          <article className="yearbook-intro" id="Overview">
+            <h2>Overview</h2>
+            <p>This project began in the fall semester of my freshman year, and I led it for 3 years. I was heavily involved in the student organization Computer Science House and I soon learned of a yearbook project that died down as a result of COVID. This club meant a lot to me throughout my college experience, and with my prior design experience, I thought this project was a perfect way to give back to the community that gave so much to me. It began with a team of only two people, yet we were able to garner interest and create a small team. Though freshmen composed most of the team, we were determined to do the research and create a yearbook symbolic of the whole CSH community. The yearbooks feature photos of all CSH members, funny quotes, technical projects, CSH-branded designs, and photos from events throughout the year.</p>
             <img src={yearbookProcessImage} alt="process image" width={"100%"} height={"auto"} />
+          </article>
+          <article className="yearbook-goals" id="Goals">
+            <h2>Goals</h2>
+            <h3>Create yearbooks that captures the essence of CSH's community.</h3>
+            <p>My main goal was to create yearbooks that captured CSH, showcasing its technical and social aspects. I also wanted to create a project that anyone could contribute to, regardless of their design experience, so I aimed to make the process as accessible as possible. I wanted to ensure the project was well-organized and ran smoothly, so I set goals for project management and team communication.</p>
           </article>
           <article className="yearbook-research" id="Research">
             <h2>Research</h2>
@@ -134,6 +134,10 @@ export default function Yearbook() {
               <img src={yearbook2025_3} alt="yearbook 2025 image" />
               <img src={yearbook2025_4} alt="yearbook 2025 image" />
             </section>
+          </article>
+          <article className="yearbook-takeaways" id="Takeaways">
+            <h2>Takeaways</h2>
+            <p>This project was such a passion project for me, and I learned so much about project management, design, and teamwork! It was so fulfilling to see the yearbook come together each year, and we always took the opportunity to improve from the previous year. I also learned a lot about managing large teams and long-term projects. With the many themes, I developed my design skills in various mediums, from graphic design to 3D modeling. I am so proud of the work we did and the impact it had on the CSH community!</p>
           </article>
         </section>
       </section>

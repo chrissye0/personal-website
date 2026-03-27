@@ -58,7 +58,7 @@ export default function MsgRedesign() {
           <article className="msg-goals" id="Goals">
             <h2>Goals</h2>
             <h3>Improve overall Madison Square Garden brand perception by delivering best-in-class experience through innovative features.</h3>
-            <p>Based on previous quantitative and qualitative user research findings, MSG.com users saw an imbalance of event and venue information and showed little click interactivity on the homepage. As a result, we sought to also increase interactivity and display the right amount of event information. Success was measured by via user research studies and NPS.</p>
+            <p>Based on previous quantitative and qualitative user research findings, MSG.com users saw an imbalance of event and venue information and showed little click interactivity on the homepage. As a result, we sought to also increase interactivity and display the right amount of event information. Success was measured via user research studies and NPS.</p>
           </article>
           <article className="msg-brainstorming" id="Brainstorming">
             <h2>Brainstorming</h2>
