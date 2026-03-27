@@ -60,13 +60,15 @@ export default function Yearbook() {
               <section className="tools">
                 <h4>Tools</h4>
                 <section className="project-page-tags">
-                  <button className="project-skill">Product Management</button>
                   <button className="project-skill">Adobe Illustrator</button>
                   <button className="project-skill">Adobe Photoshop</button>
                   <button className="project-skill">Canva</button>
                   <button className="project-skill">Blender</button>
                   <button className="project-skill">Notion</button>
                   <button className="project-skill">Trello</button>
+                  <button className="project-skill">Product Design</button>
+                  <button className="project-skill">Product Management</button>
+                  <button className="project-skill">Graphic Design</button>
                 </section>
               </section>
             </header>

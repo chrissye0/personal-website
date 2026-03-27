@@ -17,14 +17,14 @@ const projects = [
     description: "A redesign of Madison Square Garden's venue homepage I did during my internship.",
     image: msgRedesignImage,
     link: "/msg-redesign",
-    tags: ["Figma", "UserTesting", "User Research", "Competitive Analysis"]
+    tags: ["Figma", "Product Design", "User Research", "Competitive Analysis", "A/B Testing", "UserTesting"]
   },
   {
     title: "CSH Yearbook",
     description: "A multi-year creative passion project I led for RIT's Computer Science House.",
     image: yearbookImage,
     link: "/yearbook",
-    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Management"]
+    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Design","Product Management", "Graphic Design"]
   },
   // {
   //   title: "Knicks & Rangers Alumni Pages",

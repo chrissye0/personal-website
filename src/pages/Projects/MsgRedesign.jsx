@@ -40,8 +40,10 @@ export default function MsgRedesign() {
                 <h4>Tools</h4>
                 <section className="project-page-tags">
                   <button className="project-skill">Figma</button>
+                  <button className="project-skill">Product Design</button>
                   <button className="project-skill">User Research</button>
                   <button className="project-skill">Competitive Analysis</button>
+                  <button className="project-skill">A/B Testing</button>
                   <button className="project-skill">UserTesting</button>
                 </section>
               </section>
