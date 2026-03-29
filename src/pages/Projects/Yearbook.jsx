@@ -79,7 +79,7 @@ export default function Yearbook() {
           <article className="yearbook-intro" id="Overview">
             <h2>Overview</h2>
             <p>This project began in the fall semester of my freshman year, and I led it for 3 years. I was heavily involved in the student organization Computer Science House and I soon learned of a yearbook project that died down as a result of COVID. This club meant a lot to me throughout my college experience, and with my prior design experience, I thought this project was a perfect way to give back to the community that gave so much to me. It began with a team of only two people, yet we were able to garner interest and create a small team. Though freshmen composed most of the team, we were determined to do the research and create a yearbook symbolic of the whole CSH community. The yearbooks feature photos of all CSH members, funny quotes, technical projects, CSH-branded designs, and photos from events throughout the year.</p>
-            <img src={yearbookProcessImage} alt="process image" width={"100%"} height={"auto"} />
+            <img src={yearbookProcessImage} alt="process image" />
           </article>
           <article className="yearbook-goals" id="Goals">
             <h2>Goals</h2>

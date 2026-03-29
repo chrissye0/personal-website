@@ -2,6 +2,7 @@ import Project from './Project.jsx';
 import flossBossImage from '../../assets/floss-boss.png';
 import msgRedesignImage from '../../assets/msg-redesign.jpg';
 import yearbookImage from '../../assets/yearbook.png';
+import cognitiveBiasImage from '../../assets/cognitive-bias.png';
 import alumniPagesImage from '../../assets/alumni-pages.png';
 
 const projects = [
@@ -26,6 +27,13 @@ const projects = [
     link: "/yearbook",
     tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Design","Product Management", "Graphic Design"]
   },
+  {
+    title: "Cognitive Bias & Generative AI Lab",
+    description: "An educational lab about human cognitive biases and trust in generative AI outputs.",
+    image: cognitiveBiasImage,
+    link: "/cognitive-bias",
+    tags: ["Figma", "Design Systems", "Product Design"]
+  }
   // {
   //   title: "Knicks & Rangers Alumni Pages",
   //   description: "Webpage designs for retired New York Knicks and New York Rangers players.",

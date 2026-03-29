@@ -4,6 +4,7 @@ import Fun from './pages/Fun.jsx';
 import FlossBoss from './pages/Projects/FlossBoss.jsx';
 import MsgRedesign from './pages/Projects/MsgRedesign.jsx';
 import Yearbook from './pages/Projects/Yearbook.jsx';
+import CognitiveBias from './pages/Projects/CognitiveBias.jsx';
 // import Portfolio from './pages/Projects/Portfolio.jsx';
 // import AlumniPages from './pages/Projects/AlumniPages.jsx';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
@@ -60,6 +61,9 @@ function App() {
                   <NavLink to="/yearbook" onClick={() => setMenuOpen(false)}>
                     CSH Yearbook
                   </NavLink>
+                  <NavLink to="/cognitive-bias" onClick={() => setMenuOpen(false)}>
+                    Cognitive Bias & Generative AI Lab
+                  </NavLink>
                 </section>
               </>
             )}
@@ -80,6 +84,7 @@ function App() {
         <Route path="/floss-boss" element={<FlossBoss />} />
         <Route path="/msg-redesign" element={<MsgRedesign />} />
         <Route path="/yearbook" element={<Yearbook />} />
+        <Route path="/cognitive-bias" element={<CognitiveBias />} />
       </Routes>
     </BrowserRouter>
   )

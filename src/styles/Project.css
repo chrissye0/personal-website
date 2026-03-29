@@ -66,7 +66,11 @@
 .flossboss-video,
 .flossboss-brainstorm-images,
 .flossboss-process-images,
-.flossboss-gdc-images {
+.flossboss-gdc-images,
+.cognitivebias-brainstorming-images,
+.cognitivebias-development-images,
+.cognitivebias-design-system-images,
+.cognitivebias-results-images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -82,7 +86,11 @@
 .flossboss-video img,
 .flossboss-brainstorm-images img,
 .flossboss-development img,
-.flossboss-gdc-images img {
+.flossboss-gdc-images img,
+.cognitivebias-brainstorming-images img,
+.cognitivebias-development-images img,
+.cognitivebias-design-system-images img,
+.cognitivebias-results-images img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -129,13 +137,15 @@
   height: 100%;
 }
 
-.competitive-analysis-findings {
+.competitive-analysis-findings,
+.cognitivebias-research-insights {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
-.competitive-analysis-finding {
+.competitive-analysis-finding,
+.cognitivebias-research-insight {
   display: flex;
   flex-direction: column;
   padding: 30px 30px;
@@ -143,6 +153,12 @@
   border-radius: 15px;
   max-width: 30vw;
   align-items: center;
+}
+
+.cognitivebias-design-system-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 .nps-scores {
@@ -171,13 +187,15 @@
     flex-direction: column;
   }
 
-  .competitive-analysis-findings {
+  .competitive-analysis-findings,
+  .cognitivebias-research-insights {
     display: flex;
     flex-direction: column;
     gap: 30px;
   }
 
-  .competitive-analysis-finding {
+  .competitive-analysis-finding,
+  .cognitivebias-research-insight {
     max-width: 100%;
   }
 
@@ -200,9 +218,9 @@
   }
 
   .project-content img {
-  max-width: 100%;
-  height: auto;
-}
+    max-width: 100%;
+    height: auto;
+  }
 
   .project-page {
     padding: 30px;
@@ -221,7 +239,11 @@
   .old-yearbooks,
   .yearbook-process-images,
   .yearbook-results-images,
-  .flossboss-process-images {
+  .flossboss-process-images,
+  .cognitivebias-brainstorming-images,
+  .cognitivebias-development-images,
+  .cognitivebias-design-system-images,
+  .cognitivebias-results-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -265,7 +287,11 @@
   .yearbook-results-images,
   .flossboss-process-images,
   .flossboss-brainstorm-images,
-  .flossboss-gdc-images {
+  .flossboss-gdc-images,
+  .cognitivebias-brainstorming-images,
+  .cognitivebias-design-system-images,
+  .cognitivebias-development-images,
+  .cognitivebias-results-images {
     display: flex;
     flex-direction: column;
     gap: 20px;

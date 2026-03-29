@@ -48,7 +48,7 @@ export default function FlossBoss() {
               </section>
               <section className="timeline">
                 <h4>Timeline</h4>
-                <h3>Sept 2025 - Current</h3>
+                <h3>Sept 2025 - Present</h3>
               </section>
               <section className="tools">
                 <h4>Tools</h4>
