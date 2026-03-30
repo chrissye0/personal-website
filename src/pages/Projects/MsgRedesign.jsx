@@ -197,8 +197,8 @@ export default function MsgRedesign() {
                 <p>Users appreciated how the events were displayed, as they could now easily find events they liked directly from the venue landing page.</p>
               </section>
               <section className="msg-results-social-media">
-                <h4>Organization</h4>
-                <p>Users appreciated how the events were displayed, as they could now easily find events they liked directly from the venue landing page.</p>
+                <h4>Social Media</h4>
+                <p>Users liked the social media integration at the bottom of the page, showcasing users' recent experiences at the venue.</p>
               </section>
             </section>
           </article>
