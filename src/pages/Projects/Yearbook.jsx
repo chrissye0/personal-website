@@ -83,7 +83,7 @@ export default function Yearbook() {
           </article>
           <article className="yearbook-goals" id="Goals">
             <h2>Goals</h2>
-            <h3>Create yearbooks that captures the essence of CSH's community.</h3>
+            <h3>Create yearbooks that capture the essence of CSH's community.</h3>
             <p>My main goal was to create yearbooks that captured CSH, showcasing its technical and social aspects. I also wanted to create a project that anyone could contribute to, regardless of their design experience, so I aimed to make the process as accessible as possible. I wanted to ensure the project was well-organized and ran smoothly, so I set goals for project management and team communication.</p>
           </article>
           <article className="yearbook-research" id="Research">
