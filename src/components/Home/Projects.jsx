@@ -25,7 +25,7 @@ const projects = [
     description: "A multi-year creative passion project I led for RIT's Computer Science House.",
     image: yearbookImage,
     link: "/yearbook",
-    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Design","Product Management", "Graphic Design"]
+    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Design", "Product Management", "Graphic Design"]
   },
   {
     title: "Cognitive Bias & Generative AI Lab",
@@ -54,18 +54,20 @@ const projects = [
 export default function Projects() {
   return (
     <>
-      <h2>Projects</h2>
       <section className="projects" id="projects">
-        {projects.map((project) => (
-          <Project
-            key={project.title}
-            image={project.image}
-            title={project.title}
-            description={project.description}
-            tags={project.tags}
-            link={project.link}
-          />
-        ))}
+        <h2>Projects</h2>
+        <section className="projects-grid">
+          {projects.map((project) => (
+            <Project
+              key={project.title}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              tags={project.tags}
+              link={project.link}
+            />
+          ))}
+        </section>
       </section>
     </>
   )
