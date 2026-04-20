@@ -20,7 +20,7 @@ export default function MsgRedesign() {
       <section className="project-page">
         <Sidebar nav={["Overview", "Goals", "Brainstorming", "Competitive Analysis", "Design Iterations", "A/B Testing", "Results", "Takeaways"]} />
         <section className="project-content">
-          <header class="project-header">
+          <header className="project-header">
             <h1>MSG.com Redesign</h1>
             <p>A redesign project of Madison Square Garden's venue landing page.</p>
             <header className="project-mini-headers">

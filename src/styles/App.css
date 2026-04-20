@@ -121,21 +121,20 @@ footer {
   display: flex;
   align-items: center;
   text-align: left;
-}
-
-.footer-right {
-  margin-left: auto;
+  justify-content: space-between;
+  gap: 32px;
 }
 
 footer img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+  width: 40px;
+  height: 40px;
   vertical-align: middle;
+  padding-right: 5px;
 }
 
 footer a {
   color: black;
+  margin-top: auto;
 }
 
 footer a:hover {
@@ -153,6 +152,17 @@ footer a:hover {
     padding: 20px 10px;
   }
 
+    footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: left;
+  }
+
+  .footer-links, .footer-right {
+    margin-right: 25%;
+  }
+
   .footer-link {
     display: flex;
     flex-direction: row;
@@ -162,14 +172,9 @@ footer a:hover {
 
 /* 600px and below*/
 @media only screen and (max-width: 600px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
 
-  .footer-right {
-    margin-left: 0;
+  .footer-links, .footer-right {
+    margin-right: 40%;
   }
 
   .hamburger {

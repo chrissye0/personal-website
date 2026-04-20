@@ -8,7 +8,7 @@ export default function Footer() {
         <h1> Thanks for visiting!</h1>
         <h2>Let's chat :)</h2>
       </section>
-      <section className="footer-right" >
+      <section className="footer-links">
         <section className="footer-link">
           <img src={linkedinIcon} alt="LinkedIn Icon" />
           <a href="https://www.linkedin.com/in/christine-espeleta/" target="_blank" rel="noopener noreferrer">christine-espeleta</a>
@@ -17,7 +17,8 @@ export default function Footer() {
           <img src={emailIcon} alt="Email Icon" />
           <a href="mailto:christinee1220@gmail.com" target="_blank" rel="noopener noreferrer">christinee1220@gmail.com</a>
         </section>
-        <br />
+      </section>
+      <section className="footer-right" >
         <section className="footer-credit">
           <a href="https://github.com/chrissye0/personal-website" target="_blank" rel="noopener noreferrer">made with sweet treats & love</a>
           <p>© Christine Espeleta 2026</p>

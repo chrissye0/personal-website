@@ -31,6 +31,10 @@ export default function CognitiveBias() {
                         <h1>Cognitive Bias & Generative AI Lab</h1>
                         <p>An educational lab about human cognitive biases and trust in generative AI outputs.</p>
                         <header className="project-mini-headers">
+                            <section className="links">
+                                <h4>Links</h4>
+                                <h3><a href="https://all.rit.edu/Lab13/" target="_blank" rel="noopener noreferrer">Lab</a></h3>
+                            </section>
                             <section className="role">
                                 <h4>Role</h4>
                                 <h3>UI/UX Designer</h3>
@@ -113,7 +117,7 @@ export default function CognitiveBias() {
                     </article>
                     <article className="cognitivebias-results" id="Results">
                         <h2>Results</h2>
-                        <p>The project is currently being developed by the team's software developers and is in beta for bug detection and user feedback. Our software developers referenced my prototypes in the development process, and I made sure to maintain proper communication and documentation on the lab's designs!</p>
+                        <p>The project is now live! You can view it <a href="https://all.rit.edu/Lab13/">here</a>. Our software developers referenced my prototypes in the development process, and I made sure to maintain proper communication and documentation on the lab's designs!</p>
                         <section className="cognitivebias-results-images">
                             <img src={cognitiveBiasResultsRanking} alt="Cognitive Bias Lab Results - Ranking" />
                             <img src={cognitiveBiasResultsAI} alt="Cognitive Bias Lab Results - AI" />

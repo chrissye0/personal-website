@@ -40,9 +40,9 @@ function Scene() {
                 <PivotControls
                     anchor={[0, 0, 0]}
                     depthTest={false}
-                    lineWidth={3}
+                    lineWidth={4}
                     axisColors={['#9381ff', '#ff4d6d', '#7ae582']}
-                    scale={70}
+                    scale={110}
                     fixed={true}
                 >
                     <mesh

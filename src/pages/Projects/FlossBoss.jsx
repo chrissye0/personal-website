@@ -74,7 +74,7 @@ export default function FlossBoss() {
             <p>With a team of 4 developers and 6 designers, we created Floss Boss, an interactive experience in which users become a tiny shrimp hero scrubbing and flossing a lake monster's massive teeth! Using an oversized toothbrush and flosser controllers, two players physically brush and floss teeth to attack bacteria scuds in real time, creating a playful, full-body, high-energy experience impossible with traditional game controls.</p>
             <section className="flossboss-gdc">
               <iframe width="854px" height="480px"
-                src="https://www.youtube.com/embed/3P0t6EmyHPo?si=sbaCcwMReRfNEs8d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                src="https://www.youtube.com/embed/3P0t6EmyHPo?si=sbaCcwMReRfNEs8d" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
               </iframe>
             </section>
           </article>

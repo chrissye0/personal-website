@@ -7,9 +7,9 @@ export default function Job({ company, title, duration, details }) {
                 <p>{duration}</p>
             </section>
             <ul>
-                {details.map((detail) => {
-                    return <li>{detail}</li>;
-                })}
+                {details.map((detail, index) => (
+                    <li key={index}>{detail}</li>
+                ))}
             </ul>
         </section>
     )

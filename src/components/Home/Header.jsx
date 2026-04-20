@@ -7,7 +7,7 @@ export default function Header() {
       <Three />
       <Typewriter />
       <section className="view-projects">
-        <h3>View Projects</h3>
+        <h3><a href="#projects">View Projects</a></h3>
         <p>↓</p>
       </section>
     </section>

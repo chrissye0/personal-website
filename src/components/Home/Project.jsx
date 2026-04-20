@@ -9,7 +9,7 @@ export default function Project({ title, description, tags, link, image }) {
           <p>{description}</p>
           <section className="project-tags">
           {tags.map((tag) => {
-            return <button className="project-skill">{tag}</button>
+            return <button className="project-skill" key={tag}>{tag}</button>
           })}
           </section>
         </section>
