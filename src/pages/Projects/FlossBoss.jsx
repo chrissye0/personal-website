@@ -48,7 +48,7 @@ export default function FlossBoss() {
               </section>
               <section className="timeline">
                 <h4>Timeline</h4>
-                <h3>Sept 2025 - Present</h3>
+                <h3>Sept 2025 - May 2026</h3>
               </section>
               <section className="tools">
                 <h4>Tools</h4>
@@ -144,7 +144,7 @@ export default function FlossBoss() {
           <article className="flossboss-results" id="Takeaways">
             <h2>Takeaways</h2>
             <p>It was my first time working on a project of this scale with such a large team, and I undoubtedly learned a lot about game development, hardware integration, user feedback, and multidisciplinary team collaboration! Seeing so many people actively enjoy our game at GDC made the endless hours spent debugging code, playtesting, and painstakingly handcrafting a physical set all the more worth it. Video games and their endless potential for creativity, storytelling, and human connection have always held a special place in my heart, so it was an absolute honor to share a silly project about cleaning teeth with the same people who made me who I am today.</p>
-            <p>In late April, we will be presenting Floss Boss again as part of our university's showcase, ImagineRIT!</p>
+            <p>In late April, we presented Floss Boss again as part of our university's showcase, ImagineRIT!</p>
             <section className="project-page-image">
               <img src={flossBossGroup} alt="floss boss group image" />
             </section>

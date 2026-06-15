@@ -41,7 +41,7 @@ export default function CognitiveBias() {
                             </section>
                             <section className="timeline">
                                 <h4>Timeline</h4>
-                                <h3>Oct 2025 - Present</h3>
+                                <h3>Oct 2025 - April 2026</h3>
                             </section>
                             <section className="tools">
                                 <h4>Tools</h4>

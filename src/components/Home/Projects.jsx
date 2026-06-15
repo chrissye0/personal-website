@@ -11,14 +11,21 @@ const projects = [
     description: "An alternative interface interactive experience presented to 20,000+ attendees at the GDC Festival of Gaming as an alt.ctrl.GDC competition finalist.",
     image: flossBossImage,
     link: "/floss-boss",
-    tags: ["JavaScript", "Node.js", "HTML", "CSS", "C++", "Arduino", "Rive", "Web Development", "Game Development"]
+    tags: ["JavaScript", "Node.js", "C++", "Arduino", "Figma", "Rive", "Web Development", "Game Development", "Game Design"]
   },
   {
     title: "MSG.com Redesign",
-    description: "A redesign of Madison Square Garden's venue homepage I did during my internship.",
+    description: "A redesign project of Madison Square Garden's venue landing page.",
     image: msgRedesignImage,
     link: "/msg-redesign",
-    tags: ["Figma", "Product Design", "User Research", "Competitive Analysis", "A/B Testing", "UserTesting"]
+    tags: ["Figma", "UserTesting", "Design Systems", "Product Design", "User Research", "Competitive Analysis", "A/B Testing"]
+  },
+  {
+    title: "Cognitive Bias & Generative AI Lab",
+    description: "An educational lab about human cognitive biases and trust in generative AI outputs.",
+    image: cognitiveBiasImage,
+    link: "/cognitive-bias",
+    tags: ["Figma", "Design Systems", "Product Design", "Accessibility Design", "Educational Design"]
   },
   {
     title: "CSH Yearbook",
@@ -27,27 +34,6 @@ const projects = [
     link: "/yearbook",
     tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Blender", "Notion", "Trello", "Product Design", "Product Management", "Graphic Design"]
   },
-  {
-    title: "Cognitive Bias & Generative AI Lab",
-    description: "An educational lab about human cognitive biases and trust in generative AI outputs.",
-    image: cognitiveBiasImage,
-    link: "/cognitive-bias",
-    tags: ["Figma", "Design Systems", "Product Design"]
-  }
-  // {
-  //   title: "Knicks & Rangers Alumni Pages",
-  //   description: "Webpage designs for retired New York Knicks and New York Rangers players.",
-  //   image: alumniPagesImage,
-  //   link: "/alumni-pages",
-  //   tags: ["Figma", "Ceros"]
-  // },
-  // {
-  //   title: "Portfolio Website",
-  //   description: "How I made this website!",
-  //   image: "/images/portfolio-website.jpg",
-  //   link: "/portfolio",
-  //   tags: ["React", "Three.js"]
-  // },
 ];
 
 

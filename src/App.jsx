@@ -50,7 +50,7 @@ function App() {
           <section className={`dropdown`}>
             {!isMobile && (
               <>
-                <NavLink to="/" style={{pointerEvents: "none"}}>Projects</NavLink>
+                <NavLink to="/" style={{ pointerEvents: "none" }}>Projects</NavLink>
                 <section className="dropdown-menu">
                   <NavLink to="/floss-boss" onClick={() => setMenuOpen(false)}>
                     Floss Boss
@@ -58,11 +58,11 @@ function App() {
                   <NavLink to="/msg-redesign" onClick={() => setMenuOpen(false)}>
                     MSG.com Redesign
                   </NavLink>
-                  <NavLink to="/yearbook" onClick={() => setMenuOpen(false)}>
-                    CSH Yearbook
-                  </NavLink>
                   <NavLink to="/cognitive-bias" onClick={() => setMenuOpen(false)}>
                     Cognitive Bias & Generative AI Lab
+                  </NavLink>
+                  <NavLink to="/yearbook" onClick={() => setMenuOpen(false)}>
+                    CSH Yearbook
                   </NavLink>
                 </section>
               </>
@@ -83,8 +83,8 @@ function App() {
         <Route path="/fun" element={<Fun />} />
         <Route path="/floss-boss" element={<FlossBoss />} />
         <Route path="/msg-redesign" element={<MsgRedesign />} />
-        <Route path="/yearbook" element={<Yearbook />} />
         <Route path="/cognitive-bias" element={<CognitiveBias />} />
+        <Route path="/yearbook" element={<Yearbook />} />
       </Routes>
     </BrowserRouter>
   )
