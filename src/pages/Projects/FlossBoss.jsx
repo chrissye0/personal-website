@@ -44,7 +44,7 @@ export default function FlossBoss() {
               </section>
               <section className="role">
                 <h4>Role</h4>
-                <h3>Lead Software Developer</h3>
+                <h3>UI/UX Engineer, Lead Game Developer</h3>
               </section>
               <section className="timeline">
                 <h4>Timeline</h4>
@@ -100,7 +100,7 @@ export default function FlossBoss() {
             <p>Given the scope and our small timeline from September to November, as we were implementing our project, we reevaluated our goals and decided to cut some of our initial ideas, such as the mouthwash gun. With our budget, 3D printing was not a viable solution. Projection mapping also would not have worked given the size of our set and our open alt.ctrl.GDC exhibition space. We ultimately decided on a toothbrush and flosspick as our controllers and a completely customized handmade set.</p>
             <img src={flossBossTimeline} alt="floss boss timeline" />
             <p>Designers built assets and prototypes primarily in Figma, with animation assets being made in Rive. For the code, us developers utilized JavaScript, HTML, and CSS in a Node.js runtime environment and C++ with Arduino for the physical hardware. We worked collaboratively on crafting a physical set with papier-mache teeth, foam gums, and the giant toothbrush and flosspick.</p>
-            <p>As the team's lead software developer, I was responsible for connecting the data from our hardware to the game itself. Brushing is tracked via light detection with photoresistors, and flossing is tracked with capacitive sensing. This data is then sent to the game page to dynamically update the screen and play animations.</p>
+            <p>As the team's lead developer, I was responsible for connecting the data from our hardware to the game itself. Brushing is tracked via light detection with photoresistors, and flossing is tracked with capacitive sensing. This data is then sent to the game page to dynamically update the screen and play animations.</p>
             <section className="flossboss-process-images">
               <img src={flossBossProcess1} alt="floss boss process image" />
               <img src={flossBossProcess2} alt="floss boss process image" />
